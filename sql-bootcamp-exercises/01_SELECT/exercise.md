@@ -1,0 +1,1 @@
+Use a SELECT statement to grab the first and last names of every customer and their email address.

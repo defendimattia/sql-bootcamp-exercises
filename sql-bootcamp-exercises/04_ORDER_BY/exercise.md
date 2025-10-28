@@ -1,0 +1,3 @@
+- Challenge No.1
+    - We want to reward out first 10 paying customers. 
+    - What are the customer ids of the first 10 customers who created a payment?

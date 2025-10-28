@@ -23,7 +23,7 @@ Questo repository è pensato per documentare il mio percorso di apprendimento di
 ```
 
 Ogni cartella corrisponde a un modulo o un esercizio del corso e contiene:
-- 📝 **exercise.md** → descrive la traccia dell’esercizio, gli obiettivi e i concetti affrontati.  
+- 📝 **exercise.md** → descrive la traccia dell’esercizio.
 - 💾 **solution.sql** → contiene il codice SQL con la soluzione.
 
 ---

@@ -1,0 +1,2 @@
+- Challenge No.1
+    - How many payment transactions were greater than $5.00?

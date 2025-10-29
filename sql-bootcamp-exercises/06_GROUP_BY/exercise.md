@@ -1,0 +1,3 @@
+- Challenge No.1
+    - We have two staff members, with Staff IDs 1 and 2. We want to give a bonus to the staff member that handled the most paymenys. (Most in term of number of payments processed, not total dollar amount).
+    - How many payments did each staff member handle and who gets the bonus?

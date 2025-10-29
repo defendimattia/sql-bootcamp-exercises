@@ -6,3 +6,7 @@
     - Corporate HQ is conducting a study on the relationship between replacement cost and a movie MPAA rating (e.g. G, PG, R, etc...).
     - What is the average replacement cost per MPAA rating?
         - Note: You may need to expand the AVG column to view correct results
+
+- Challenge No.3
+    - We are running a promotion to reward our top 5 customers with coupons.
+    - What are the customer ids of the top 5 customers by total spend?

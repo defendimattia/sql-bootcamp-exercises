@@ -6,3 +6,6 @@
 
 - Challenge No.3
     - How many unique districts are our customers from?
+
+- Challenge No.4
+    - Retrieve the list of names for those distinct districts from the previous question.

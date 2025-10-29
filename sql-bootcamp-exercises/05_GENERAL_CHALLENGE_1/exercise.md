@@ -12,3 +12,6 @@
 
 - Challenge No.5
     - How many films have a rating of R and a replacement cost between $5 and $15?
+
+- Challenge No.6
+    - How many films have the word Truman somewhere in the title?

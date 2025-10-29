@@ -1,6 +1,6 @@
 SELECT
     COUNT(*)
-from
+FROM
     film
 WHERE
     rating = 'R'

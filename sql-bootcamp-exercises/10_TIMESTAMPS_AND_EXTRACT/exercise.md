@@ -1,0 +1,3 @@
+- Challenge No.1
+    - During wich months did payments occur?
+    - Format your answer to return back the full month name.

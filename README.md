@@ -18,8 +18,9 @@ Questo repository è pensato per documentare il mio percorso di apprendimento di
 ┣ 📁 03_GROUP_BY/
 ┃ ┣ 📄 exercise.md
 ┃ ┗ 📄 solution.sql
+┣ 📁 imgs → Cartella cointenente immagini degli esercizi
+┣ 📁 databases → Databases di esempio PostgreSQL utilizzati nel corso
 ┣ 📄 README.md → Questo file
-┗ 📄 dvdrental.tar → Database di esempio PostgreSQL utilizzato nel corso
 ```
 
 Ogni cartella corrisponde a un modulo o un esercizio del corso e contiene:

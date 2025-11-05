@@ -1,0 +1,2 @@
+- We want to know and compare the various amounts of films we have per movie rating.
+- Use CASE and the dvdrental database to re-create this result: r 195 | pg 194 | pg13 223

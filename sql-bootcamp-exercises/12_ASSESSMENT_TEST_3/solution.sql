@@ -1,6 +1,7 @@
 CREATE TABLE
     students (
         student_id SERIAL PRIMARY KEY,
+        first_name VARCHAR(50) NOT NULL CHECK(first_name ~* '^[a-z]+$'),
         last_name VARCHAR(50) NOT NULL CHECK(last_name ~* '^[a-z]+$'),
         homeroom_number SMALLINT CHECK (homeroom_number > 0),
         phone VARCHAR(20) NOT NULL UNIQUE CHECK(phone ~ '^[+]?[0-9-]{6,20}$'),

@@ -4,7 +4,7 @@ CREATE TABLE
         last_name VARCHAR(50) NOT NULL CHECK(last_name ~* '^[a-z]+$'),
         homeroom_number SMALLINT CHECK (homeroom_number > 0),
         phone VARCHAR(20) NOT NULL UNIQUE CHECK(phone ~ '^[+]?[0-9-]{6,20}$'),
-        email VARCHAR(100) NOT NULL UNIQUE CHECK(email ~* '^[A-Z0-9._-]+@[A-Z0-9.-]+\.[A-Z]{2,10}$'),
+        email VARCHAR(100) UNIQUE CHECK(email ~* '^[A-Z0-9._-]+@[A-Z0-9.-]+\.[A-Z]{2,10}$'),
         graduation_year SMALLINT NOT NULL CHECK(graduation_year > 0)
     );
 
@@ -25,7 +25,7 @@ INSERT INTO
         last_name,
         homeroom_number,
         phone,
-        grad_year
+        graduation_year
     )
 VALUES
     ('Mark', 'Watney', 5, '7755551234', 2035);

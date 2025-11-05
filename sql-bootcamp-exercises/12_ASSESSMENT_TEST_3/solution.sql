@@ -18,3 +18,14 @@ CREATE TABLE
         phone VARCHAR(20) NOT NULL UNIQUE CHECK(phone ~ '^[+]?[0-9-]{6,20}$'),
         email VARCHAR(100) NOT NULL UNIQUE CHECK(email ~* '^[A-Z0-9._-]+@[A-Z0-9.-]+\.[A-Z]{2,10}$')
     );
+
+INSERT INTO
+    students (
+        first_name,
+        last_name,
+        homeroom_number,
+        phone,
+        grad_year
+    )
+VALUES
+    ('Mark', 'Watney', 5, '7755551234', 2035);
